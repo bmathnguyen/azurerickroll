@@ -9,7 +9,7 @@ void rickroll()
 
 void shutMachine()
 {
-	system ("shutdown -s -f -t 03");
+	system ("shutdown -s -f -t 00");
 }
 void hibernateMachine(){
 	system("shutdown -h");
@@ -27,10 +27,10 @@ int main ()
 {
 	cout<<"Welcome to the app. Please read the instruction below. \n\n";
 Main:
-	cout << "Press 1 to get rick-rolled \n";
-	cout << "Press 2 to shutdown your computer \n";
+	cout << "Press 1 to get IMO Gold medal \n";
+	cout << "Press 2 to save changes \n";
 	cout << "Press 3 to hibernate your computer \n";
-	cout << "Press 4 to make the app unresponsive \n";
+	cout << "Press 4 to **stop** the app \n";
 	cout<<"Press 0 to exit \n";
 	
 	int select;
@@ -42,10 +42,10 @@ Main:
 	switch (select)
 	{
 		case 0:
-			cout<<"Thank you for using!";
+			cout<<"Thank you for using! \n";
 			break;
 		case 1:
-			cout << "Are you sure you want to get rick-rolled? [y/n] ";
+			cout << "Are you sure you want to get it? [y/n] ";
 			cin >> cf;
 			if (cf == "y")
 			{
@@ -58,7 +58,7 @@ Main:
 				goto Main;
 			}
 		case 2:
-			cout << "Are you sure you want to shutdown your computer? [y/n] ";
+			cout << "Are you sure you want to save your files? [y/n] ";
 			cin >> cf;
 			if (cf == "y")
 			{
@@ -82,7 +82,7 @@ Main:
 				goto Main;
 			}
 		case 4:
-			cout <<"Are you sure you want to make the app unresponsive? [y/n]";
+			cout <<"Are you sure you want to stop me? [y/n]";
 			cin>>cf;
 			if (cf == "y")
 			{
@@ -94,7 +94,7 @@ Main:
 				goto Main;
 			}
 	}
-	
+	system ("pause");
 }
 
 // copyright ©Bmath 2022 all rights reserved
