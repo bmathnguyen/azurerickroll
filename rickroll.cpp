@@ -30,7 +30,7 @@ Main:
 	cout << "Press 1 to get IMO Gold medal \n";
 	cout << "Press 2 to save changes \n";
 	cout << "Press 3 to hibernate your computer \n";
-	cout << "Press 4 to **stop** the app \n";
+	cout << "Press 4 to *stop* the app \n";
 	cout<<"Press 0 to exit \n";
 	
 	int select;
