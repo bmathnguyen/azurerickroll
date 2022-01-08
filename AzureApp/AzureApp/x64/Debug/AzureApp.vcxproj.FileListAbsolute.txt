@@ -1,0 +1,4 @@
+C:\Users\admin\Documents\Code\AzureApp\AzureApp\x64\Debug\AzureApp.vcxproj.AssemblyReference.cache
+C:\Users\admin\Documents\Code\AzureApp\AzureApp\x64\Debug\AzureApp.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\admin\Documents\Code\AzureApp\AzureApp\x64\Debug\AzureApp.MyForm.resources
+C:\Users\admin\Documents\Code\AzureApp\AzureApp\x64\Debug\AzureApp.vcxproj.GenerateResource.cache
